@@ -20,8 +20,6 @@ import ClinicalStudiesPage from "./pages/ClinicalStudiesPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import GTCPage from "./pages/GTCPage";
 import "./index.css";
-import { FlowEngageProvider, FlowEngageWidget } from "@flowengage/react-chatbot";
-import "@flowengage/react-chatbot/styles.css";
 
 function Router() {
   return (
@@ -99,14 +97,9 @@ function Router() {
 
 function App() {
   return (
-    <FlowEngageProvider
-      siteId="48c97b6b-c5eb-4a64-922b-48118bc1aa70"
-    >
     <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
       <Router />
     </WouterRouter>
-        <FlowEngageWidget />
-    </FlowEngageProvider>
   );
 }
 
