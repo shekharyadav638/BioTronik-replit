@@ -1,0 +1,36 @@
+{
+  "h1": [
+    "FAQ Patient Queries"
+  ],
+  "h2": [
+    "Frequently Asked Questions",
+    "Contact Us"
+  ],
+  "h3": [
+    "Electromagnetic Compatibility",
+    "MRI Scanning Conditions",
+    "Patient Identification Card",
+    "Product or Clinical Queries",
+    "BIOTRONIK Home Monitoring (CardioMessenger)",
+    "BIOTRONIK Patient APP: Download and registration support",
+    "Arranging a Clinical Appointment"
+  ],
+  "paragraphs": [
+    "Do you have a question about your BIOTRONIK device? See below for answers to frequently asked questions.",
+    "The general information contained in this website is for patients who have enquired about their BIOTRONIK device. Patients should always speak directly with a qualified healthcare professional to discuss treatment of their specific medical condition and any queries relating to their device.",
+    "In the event of a medical emergency, please contact your local emergency services.",
+    "Frequently Asked Questions Electromagnetic Compatibility For patients with BIOTRONIK pacemakers, defibrillators, and cardiac monitors, please click the box below for information regarding different types of electrical equipment, devices and procedures that may interfere with your device.",
+    "If a specific electrical product is not listed, please contact the manufacturer of that product directly. If you require further confirmation, please use the Patient Request Form at the bottom of the page.",
+    "Please provide the name and model number of the electrical product.",
+    "Electromagnetic Compatibility of BIOTRONIK Cardiac Pacemakers, ICDs and CRT Devices (EN Only)",
+    "Patients with Implantable Pacemakers, Defibrillators and Cardiac Monitors To confirm that you are able to have an MRI scan under certain conditions, please contact your cardiologist, radiologist or device clinic who will be able to address your query based on your full medical history and scanning requirements. Please note that for patients with a pacemaker or defibrillator, the MRI scanning conditions will depend on the combination of your implanted device and lead(s).",
+    "To obtain a new or replacement Patient ID Card, please contact your hospital, clinic, or cardiologist.",
+    "Patients with Implantable Pacemakers, Defibrillators and Cardiac Monitors",
+    "For any queries relating to your pacemaker, defibrillator, cardiac monitor, or home monitoring system (CardioMessenger), please contact your device clinic who will be able to address your query based on your full medical history. If you need further assistance, please complete a Patient Request Form at the bottom of the page.",
+    "Patients with Coronary or Peripheral Stents For any queries relating to your coronary or peripheral stent, please contact your doctor who will be able to address your query based on your full medical history. If you require further assistance, please complete the Patient Request Form at the bottom of the page."
+  ],
+  "items": [],
+  "images": [
+    "/sites/default/bio_files/styles/half_hd/public/2023-11/BIO34994_Arzt_und_Patient.jpg.webp?itok=dX57xTFl"
+  ]
+}
