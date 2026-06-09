@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --navy: #00234c;
+  --navy-mid: #1f3d61;
+  --navy-light: #415d72;
+  --navy-lighter: #587992;
+  --navy-pale: #8396ad;
+  --red: #d73604;
+  --red-dark: #a22702;
+  --blue-bg: #eaf0f6;
+  --gray-bg: #f2f2f2;
+  --white: #ffffff;
+  --text-dark: #181818;
+  --text-gray: #6f797f;
+  --font-main: 'Roboto', 'HelveticaNeue', Arial, sans-serif;
+  --max-width: 1280px;
+  --header-height: 80px;
+}
+
+html, body {
+  font-family: var(--font-main);
+  color: var(--text-dark);
+  background: var(--white);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--red);
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover { background: var(--red-dark); }
+
+.btn-secondary {
+  display: inline-block;
+  border: 2px solid var(--navy);
+  color: var(--navy);
+  padding: 10px 26px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.btn-secondary:hover { background: var(--navy); color: #fff; }
+
+.btn-white {
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 26px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.btn-white:hover { background: #fff; color: var(--navy); }
+
+.section-divider {
+  width: 40px;
+  height: 3px;
+  background: var(--red);
+  margin: 12px 0 20px;
+}
+
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+}

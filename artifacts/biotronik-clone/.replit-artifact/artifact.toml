@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "BIOTRONIK Clone"
+version = "1.0.0"
+id = "artifacts/biotronik-clone"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24048
+
+[services.development]
+run = "pnpm --filter @workspace/biotronik-clone run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/biotronik-clone", "run", "build" ]
+publicDir = "artifacts/biotronik-clone/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24048"
+BASE_PATH = "/"
